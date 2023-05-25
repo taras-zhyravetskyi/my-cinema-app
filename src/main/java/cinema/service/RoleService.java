@@ -7,5 +7,5 @@ import org.springframework.stereotype.Service;
 public interface RoleService {
     Role add(Role role);
 
-    Role getByName(Role.RoleName roleName);
+    Role getByName(String roleName);
 }
